@@ -1,6 +1,6 @@
 # npmtest-inflection
 
-#### test coverage for  [inflection (v1.12.0)](https://github.com/dreamerslab/node.inflection#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-inflection.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-inflection) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-inflection.svg)](https://travis-ci.org/npmtest/node-npmtest-inflection)
+#### basic test coverage for  [inflection (v1.12.0)](https://github.com/dreamerslab/node.inflection#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-inflection.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-inflection) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-inflection.svg)](https://travis-ci.org/npmtest/node-npmtest-inflection)
 
 #### A port of inflection-js to node.js module
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-inflection/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-inflection/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-inflection/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-inflection/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-inflection/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-inflection/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-inflection/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-inflection/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-inflection/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-inflection/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-inflection/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-inflection/build/coverage.html/index.html)
 
@@ -147,7 +147,8 @@
     "scripts": {
         "test": "mocha -R spec"
     },
-    "version": "1.12.0"
+    "version": "1.12.0",
+    "bin": {}
 }
 ```
 
